@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My To-Do List</h1>
+    </header>
+
+    <main>
+      <section>
+        <input type="text" id="taskInput" placeholder="Enter a task" />
+        <button id="addTaskBtn">Add Task</button>
+        <button onclick="clearTasks()">Clear All Tasks</button>
+        <ul id="taskList"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Beginner Project</p>
+      <p>
+        This project allows users to add tasks to a list and remove them when
+        completed. It introduces basic DOM manipulation and event handling,
+        which are essential skills in JavaScript.
+      </p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
